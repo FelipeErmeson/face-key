@@ -1,0 +1,4 @@
+{
+    "threshold_rec_face": 0.49,
+    "threshold_face_already_exists": 0.001
+}

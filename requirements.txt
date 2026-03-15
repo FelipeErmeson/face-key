@@ -7,3 +7,4 @@ torchvision==0.20.1+cu121
 insightface==0.7.3
 opencv-python-headless==4.8.1.78
 scikit-image==0.20.0
+chromadb==1.5.5

@@ -10,9 +10,10 @@ from insightface.utils import face_align
 
 class RecFace():
 
-    def __init__(self, app, img):
+    def __init__(self, app, img, file_name):
         self.app = app
         self.img = img
+        self.file_name = file_name
         self.quant_faces = None
         self.faces = None
         self.dados = []
@@ -32,8 +33,9 @@ class RecFace():
         return img_with_faces
 
     def get_info(self):
-        for face in self.faces:
+        for i, face in enumerate(self.faces):
             dado = {}
+            dado['file_name'] = f'{i}_' + self.file_name
             dado['bbox'] = face.bbox
             dado['landmark'] = face.kps
             dado['confidence_det'] = face.det_score
