@@ -24,7 +24,8 @@ e magnitude da foto original.
 ```
 face-key/
 ├── README.md                                    (este arquivo)
-├── requirements.py                              (dependências Python)
+├── requirements.py                              (dependências Python - streamlit)
+├── requirements_gpu.py                          (dependências Python caso queira rodar com GPU)
 ├── images/                                      (imagens para o projeto)
 ├   ├── logo.jpeg                                (logotipo)
 ├── utils/                                       (pasta de utilitários)
@@ -62,4 +63,4 @@ streamlit run app.py
 ```
 
 ## 5. Mais Informações
-Você pode testar o app FaceKey no Streamlit Cloud [aqui]().
+Você pode testar o app FaceKey no Streamlit Cloud [aqui](https://facekey.streamlit.app/).
