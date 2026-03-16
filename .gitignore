@@ -1,1 +1,3 @@
-./chromadb/*
+chromadb/*
+.vscode
+__pycache__
