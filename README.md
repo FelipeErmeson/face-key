@@ -24,8 +24,9 @@ e magnitude da foto original.
 ```
 face-key/
 ├── README.md                                    (este arquivo)
-├── requirements.py                              (dependências Python - streamlit)
-├── requirements_gpu.py                          (dependências Python - para rodar o jupyter notebook com GPU)
+├── deteccao_facial.ipynb                        (jupyter notebook para experimentos/testes)
+├── requirements.txt                             (dependências Python - streamlit)
+├── requirements_gpu.txt                         (dependências Python - para rodar o jupyter notebook com GPU)
 ├── images/                                      (imagens para o projeto)
 ├   ├── logo.jpeg                                (logotipo)
 ├── utils/                                       (pasta de utilitários)
