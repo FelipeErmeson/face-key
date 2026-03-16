@@ -7,7 +7,7 @@ Este é um projeto de reconhecimento facial feito com a biblioteca InsightFace, 
 No FaceKey você pode realizar o upload de uma imagem e cadastrar a face. Também é possível
 verificar se a face já está presente no banco de dados vetorial.
 
-<img src="imagens/tela_inicial.png" width="650" height="350">
+![Tela](imagens/tela_inicial.png)
 
 ## 2. Características e Decisões Técnicas
 
